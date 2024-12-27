@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./images/classroom.png);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teachers", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container{
+    background: white;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+#counter-el{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+#increment-btn{
+    background: blue;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#save-btn{
+    background: green;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+
+button{
+    font-size: 30px;
+    width: 200px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid black;
+    color: #f5ebe0;
+}
+
+p{
+    font-size: 25px;
+}
